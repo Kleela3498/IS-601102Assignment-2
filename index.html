@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>String, Palindrome, and Tip Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="task1">
+    <h2>Task 1: Count Vowels and Consonants</h2>
+    <input type="text" id="stringInput" placeholder="Enter a string" />
+    <button onclick="countVowelsAndConsonants()">Count</button>
+    <p id="vowelConsonantResult"></p>
+</div>
+
+<div id="task2">
+    <h2>Task 2: Check for Palindrome</h2>
+    <input type="text" id="numberInput" placeholder="Enter a series of numbers" />
+    <button onclick="checkPalindrome()">Check</button>
+    <p id="palindromeResult"></p>
+</div>
+
+<div id="task3">
+    <h2>Task 3: Tip Calculator</h2>
+    <input type="number" id="billSubtotal" placeholder="Subtotal of the bill" />
+    <input type="number" id="tipPercentage" placeholder="Tip percentage (e.g., 20 for 20%)" />
+    <button onclick="calculateTotal()">Calculate Total</button>
+    <p id="totalResult"></p>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
